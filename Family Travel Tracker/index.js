@@ -68,8 +68,7 @@ app.post("/add", async (req, res) => {
 app.post("/user", async (req, res) => {});
 
 app.post("/new", async (req, res) => {
-  //Hint: The RETURNING keyword can return the data that was inserted.
-  //https://www.postgresql.org/docs/current/dml-returning.html
+  
 });
 
 app.listen(port, () => {
